@@ -16,3 +16,7 @@ $ source venv/bin/activate
 ```
 $ pip install -r requirements.txt
 ```
+- Run Robot tests
+```
+$ robot -d results ./Tests/<script.robot>
+```
