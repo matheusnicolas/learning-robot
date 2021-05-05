@@ -12,6 +12,14 @@ $ virtualenv -p /usr/bin/python2.7 venv
 ```
 $ source venv/bin/activate
 ```
+- Creating venv on Windows
+```
+C:/Users/<your-user>/AppData/Local/Programs/Python/Python27/python.exe venv
+```
+- Using venv on Windows
+```
+source venv/Scripts/activate
+```
 - Installing requirements
 ```
 $ pip install -r requirements.txt
